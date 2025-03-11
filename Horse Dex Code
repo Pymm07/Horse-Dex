@@ -1,0 +1,14 @@
+class kingdom:
+    def __init__(self):
+        self.attributeHorse = "Kingdom of horses would be Animelia"
+class phylum(kingdom):
+    def __init__(self):
+        super().__init__()
+        self.attributecharaistics = "Horses phylum would be Chordat and their charaistics would be..."
+class clas:
+    def __init__(self):
+        super().__init__()
+        self.attributecharaistics = ""
+
+horse001 = kingdom()
+print(horse001.attributeHorse)
