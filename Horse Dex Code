@@ -1,14 +1,25 @@
 class kingdom:
     def __init__(self):
-        self.attributeHorse = "Kingdom of horses would be Animelia"
+        self.attributeAnimelia = "Kingdom of horses would be Animelia"
 class phylum(kingdom):
     def __init__(self):
         super().__init__()
-        self.attributecharaistics = "Horses phylum would be Chordat and their charaistics would be..."
-class clas:
+        self.attributeChordat = "Horse's Phylum would be Chordat and their charaistics would be..."
+class clas(phylum):
     def __init__(self):
         super().__init__()
-        self.attributecharaistics = ""
-
+        self.attributecharaistics = "Horse's Class would be Chordat and their charaistics would be..."
+class order(clas):
+    def __init__(self):
+        super().__init__()
+        self.attributecharaistics = "Horse's Order would be Mammalia and their charaistics would be..."
+class family(order):
+    def __init__(self):
+        super().__init__()
+        self.attribute = "Horse's Family would be Chordat and their charaistics would be..."
+class species(family):
+    def __init__(self):
+        super().__init__()
+        self.attribute = "Horse's Species would be Chordat and their charaistics would be..."
 horse001 = kingdom()
 print(horse001.attributeHorse)
