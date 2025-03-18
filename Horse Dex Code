@@ -1,29 +1,237 @@
-class kingdom:
+class Kingdom:
     def __init__(self):
-        self.attributeAnimelia = "Kingdom of horses would be Animelia"
-class phylum(kingdom):
-    def __init__(self):
-        super().__init__()
-        self.attributeChordat = "Horse's Phylum would be Chordat and their charaistics would be..."
-class clas(phylum):
+        self.attributeAnimalia = "Kingdom of horses would be Animalia"
+
+class Phylum(Kingdom):
     def __init__(self):
         super().__init__()
-        self.attributeMammalia = "Horse's Class would be Mammalia and their charaistics would be..."
-class order(clas):
+        self.attributeChordata = "Horse's Phylum would be Chordata and their characteristics would be..."
+
+class Class_(Phylum):  
     def __init__(self):
         super().__init__()
-        self.attributePerissodactyla = "Horse's Order would be Perissodactyla and their charaistics would be..."
-class family(order):
+        self.attributeMammalia = "Horse's Class would be Mammalia and their characteristics would be..."
+
+class Order(Class_):
     def __init__(self):
         super().__init__()
-        self.attributeEquidae = "Horse's Family would be Equidae and their charaistics would be..."
-class species(family):
+        self.attributePerissodactyla = "Horse's Order would be Perissodactyla and their characteristics would be..."
+
+class Family(Order):
     def __init__(self):
         super().__init__()
-        self.attributeEquus = "Horse's Species would be Equus ferus caballus and their charaistics would be..."
-horse001 = kingdom()
-print(horse001.attributeAnimelia)
+        self.attributeEquidae = "Horse's Family would be Equidae and their characteristics would be..."
+
+class Species(Family):
+    def __init__(self):
+        super().__init__()
+        self.attributeEquus = "Horse's Species would be Equus ferus caballus and their characteristics would be..."
+
+
+arabainHorse = Species()
+mustang = Species()
+americanPaintHorse = Species()
+dutchWarmblood = Species()
+morganHorse = Species()
+icelandicHorse = Species()
+knabstrupper = Species()
+blackForestHorse = Species()
+kigerMustang = Species()
+ardennais = Species()
+tennesseeWalkingHorse = Species()
+irishSportHorse = Species()
+
+while True:
+    print("1.) Arabain Horse")
+    print("2.) Mustang")
+    print("3.) American Paint Horse")
+    print("4.) Dutch Warmblood")
+    print("5.) Morgan Horse")
+    print("6.) Icelandic Horse")
+    print("7.) Knabstrupper")
+    print("8.) Black Forest Horse")
+    print("9.) Kiger Mustang")
+    print("10.) Ardennais")
+    print("11.) Tennessee Walking Horse")
+    print("12.) Irish Sport Horse")
+    userInput = input("What Horse would you like to pick?").lower
+
+    if userInput == 'arabain horse':
+        print("1.) Arabain Horse")
+        print(arabainHorse.attributeAnimalia)      
+        print(arabainHorse.attributeChordata)      
+        print(arabainHorse.attributeMammalia)      
+        print(arabainHorse.attributePerissodactyla) 
+        print(arabainHorse.attributeEquidae)       
+        print(arabainHorse.attributeEquus)  
+        print("____________________________________________________________________________")
+        print("2.) Mustang")
+        print("3.) American Paint Horse")
+        print("4.) Dutch Warmblood")
+        print("5.) Morgan Horse")
+        print("6.) Icelandic Horse")
+        print("7.) Knabstrupper")
+        print("8.) Black Forest Horse")
+        print("9.) Kiger Mustang")
+        print("10.) Ardennais")
+        print("11.) Tennessee Walking Horse")
+        print("12.) Irish Sport Horse")
+        
+    if userInput == 'mustang':
+        print("1.) Arabain Horse")
+        print("____________________________________________________________________________")
+        print(mustang.attributeAnimalia)      
+        print(mustang.attributeChordata)      
+        print(mustang.attributeMammalia)      
+        print(mustang.attributePerissodactyla) 
+        print(mustang.attributeEquidae)       
+        print(mustang.attributeEquus)       
+        print("____________________________________________________________________________")
+        print("3.) American Paint Horse")
+        print("4.) Dutch Warmblood")
+        print("5.) Morgan Horse")
+        print("6.) Icelandic Horse")
+        print("7.) Knabstrupper")
+        print("8.) Black Forest Horse")
+        print("9.) Kiger Mustang")
+        print("10.) Ardennais")
+        print("11.) Tennessee Walking Horse")
+        print("12.) Irish Sport Horse")
+
+    if userInput == 'american paint horse':
+        print("1.) Arabain Horse")
+        print("2.) Mustang")
+        print("3.) American Paint Horse")
+        print("____________________________________________________________________________")
+        print(americanPaintHorse.attributeAnimalia)      
+        print(americanPaintHorse.attributeChordata)      
+        print(americanPaintHorse.attributeMammalia)      
+        print(americanPaintHorse.attributePerissodactyla) 
+        print(americanPaintHorse.attributeEquidae)       
+        print(americanPaintHorse.attributeEquus)
+        print("____________________________________________________________________________")
+        print("4.) Dutch Warmblood")
+        print("5.) Morgan Horse")
+        print("6.) Icelandic Horse")
+        print("7.) Knabstrupper")
+        print("8.) Black Forest Horse")
+        print("9.) Kiger Mustang")
+        print("10.) Ardennais")
+        print("11.) Tennessee Walking Horse")
+        print("12.) Irish Sport Horse")
+
+    if userInput == 'dutch warmblood':
+        print("1.) Arabain Horse")
+        print("2.) Mustang")
+        print("3.) American Paint Horse")
+        print("4.) Dutch Warmblood")
+        print("____________________________________________________________________________")
+        print(dutchWarmblood.attributeAnimalia)      
+        print(dutchWarmblood.attributeChordata)      
+        print(dutchWarmblood.attributeMammalia)      
+        print(dutchWarmblood.attributePerissodactyla) 
+        print(dutchWarmblood.attributeEquidae)       
+        print(dutchWarmblood.attributeEquus)
+        print("____________________________________________________________________________")
+        print("5.) Morgan Horse")
+        print("6.) Icelandic Horse")
+        print("7.) Knabstrupper")
+        print("8.) Black Forest Horse")
+        print("9.) Kiger Mustang")
+        print("10.) Ardennais")
+        print("11.) Tennessee Walking Horse")
+        print("12.) Irish Sport Horse")
+
+    if userInput == 'morgan horse':
+        print("1.) Arabain Horse")
+        print("2.) Mustang")
+        print("3.) American Paint Horse")
+        print("4.) Dutch Warmblood")
+        print("5.) Morgan Horse")
+        print("____________________________________________________________________________")
+        print(morganHorse.attributeAnimalia)      
+        print(morganHorse.attributeChordata)      
+        print(morganHorse.attributeMammalia)      
+        print(morganHorse.attributePerissodactyla) 
+        print(morganHorse.attributeEquidae)       
+        print(morganHorse.attributeEquus)
+        print("____________________________________________________________________________")
+        print("6.) Icelandic Horse")
+        print("7.) Knabstrupper")
+        print("8.) Black Forest Horse")
+        print("9.) Kiger Mustang")
+        print("10.) Ardennais")
+        print("11.) Tennessee Walking Horse")
+        print("12.) Irish Sport Horse")
+
+    if userInput == 'icelandic horse':
+        print("1.) Arabain Horse")
+        print("2.) Mustang")
+        print("3.) American Paint Horse")
+        print("4.) Dutch Warmblood")
+        print("5.) Morgan Horse")
+        print("6.) Icelandic Horse")
+        print("____________________________________________________________________________")
+        print(icelandicHorse.attributeAnimalia)      
+        print(icelandicHorse.attributeChordata)      
+        print(icelandicHorse.attributeMammalia)      
+        print(icelandicHorse.attributePerissodactyla) 
+        print(icelandicHorse.attributeEquidae)       
+        print(icelandicHorse.attributeEquus)
+        print("____________________________________________________________________________")
+        print("7.) Knabstrupper")
+        print("8.) Black Forest Horse")
+        print("9.) Kiger Mustang")
+        print("10.) Ardennais")
+        print("11.) Tennessee Walking Horse")
+        print("12.) Irish Sport Horse")
+
+    if userInput == 'knabstrupper':
+        print("1.) Arabain Horse")
+        print("2.) Mustang")
+        print("3.) American Paint Horse")
+        print("4.) Dutch Warmblood")
+        print("5.) Morgan Horse")
+        print("6.) Icelandic Horse")
+        print("7.) Knabstrupper")
+        print("____________________________________________________________________________")
+        print(knabstrupper.attributeAnimalia)      
+        print(knabstrupper.attributeChordata)      
+        print(knabstrupper.attributeMammalia)      
+        print(knabstrupper.attributePerissodactyla) 
+        print(knabstrupper.attributeEquidae)       
+        print(knabstrupper.attributeEquus)
+        print("____________________________________________________________________________")
+        print("8.) Black Forest Horse")
+        print("9.) Kiger Mustang")
+        print("10.) Ardennais")
+        print("11.) Tennessee Walking Horse")
+        print("12.) Irish Sport Horse")
+
+    if userInput == 'black forest horse':
+        print("1.) Arabain Horse")
+        print("2.) Mustang")
+        print("3.) American Paint Horse")
+        print("4.) Dutch Warmblood")
+        print("5.) Morgan Horse")
+        print("6.) Icelandic Horse")
+        print("7.) Knabstrupper")
+        print("8.) Black Forest Horse")
+        print("____________________________________________________________________________")
+        print(blackForestHorse.attributeAnimalia)      
+        print(blackForestHorse.attributeChordata)      
+        print(blackForestHorse.attributeMammalia)      
+        print(blackForestHorse.attributePerissodactyla) 
+        print(blackForestHorse.attributeEquidae)       
+        print(blackForestHorse.attributeEquus)
+        print("____________________________________________________________________________")
+        print("9.) Kiger Mustang")
+        print("10.) Ardennais")
+        print("11.) Tennessee Walking Horse")
+        print("12.) Irish Sport Horse")
 
 
 
 
+
+     
