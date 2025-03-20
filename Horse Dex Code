@@ -803,7 +803,7 @@ while True:
         print(arabianHorse.attributeMammalia)
         print(arabianHorse.attributePerissodactyla)
         print(arabianHorse.attributeEquidae)
-        print(f"{arabianHorse.attributeEquus}")
+        print(f"{arabianHorse.attributeEquus} a dished face, high tail carriage, and a short back, along with their athleticism, endurance, and intelligence")
 
     elif userInput == "mustang":
         print(mustangArt)
@@ -813,7 +813,7 @@ while True:
         print(mustang.attributeMammalia)
         print(mustang.attributePerissodactyla)
         print(mustang.attributeEquidae)
-        print(f"{mustang.attributeEquus}")
+        print(f"{mustang.attributeEquus} a hardy, sure-footed nature, strong hooves, and adaptability to harsh environments")
 
     elif userInput == "american paint horse":
         print(americanArt)
@@ -823,7 +823,7 @@ while True:
         print(americanPaintHorse.attributeMammalia)
         print(americanPaintHorse.attributePerissodactyla)
         print(americanPaintHorse.attributeEquidae)
-        print(f"{americanPaintHorse.attributeEquus}")
+        print(f"{americanPaintHorse.attributeEquus} a distinctive coat patterns, stock horse body type, and versatile athleticism")
 
     elif userInput == "dutch warmblood":
         print(dutchArt)
@@ -833,7 +833,7 @@ while True:
         print(dutchWarmblood.attributeMammalia)
         print(dutchWarmblood.attributePerissodactyla)
         print(dutchWarmblood.attributeEquidae)
-        print(f"{dutchWarmblood.attributeEquus}")
+        print(f"{dutchWarmblood.attributeEquus} a athleticism, elegance, versatility, and calm, even temperament")
 
     elif userInput == "morgan horse":
         print(morganArt)
@@ -843,7 +843,7 @@ while True:
         print(morganHorse.attributeMammalia)
         print(morganHorse.attributePerissodactyla)
         print(morganHorse.attributeEquidae)
-        print(f"{morganHorse.attributeEquus}")
+        print(f"{morganHorse.attributeEquus} a versatility, stamina, and gentle temperament, with a compact, muscular build and an elegant appearance")
 
     elif userInput == "icelandic horse":
         print(iceArt)
@@ -853,7 +853,7 @@ while True:
         print(icelandicHorse.attributeMammalia)
         print(icelandicHorse.attributePerissodactyla)
         print(icelandicHorse.attributeEquidae)
-        print(f"{icelandicHorse.attributeEquus}")
+        print(f"{icelandicHorse.attributeEquus} a rather small, sturdy and hardy, but not light in build and thus often lacking in elegance")
 
     elif userInput == "knabstrupper":
         print(knabstrupperArt)
@@ -863,7 +863,7 @@ while True:
         print(knabstrupper.attributeMammalia)
         print(knabstrupper.attributePerissodactyla)
         print(knabstrupper.attributeEquidae)
-        print(f"{knabstrupper.attributeEquus}")
+        print(f"{knabstrupper.attributeEquus} a unique leopard-like spotting patterns, a friendly and versatile temperament")
 
     elif userInput == "black forest horse":
         print(blackForestArt)
@@ -873,7 +873,7 @@ while True:
         print(blackForestHorse.attributeMammalia)
         print(blackForestHorse.attributePerissodactyla)
         print(blackForestHorse.attributeEquidae)
-        print(f"{blackForestHorse.attributeEquus}")
+        print(f"{blackForestHorse.attributeEquus} a dark chestnut coats with flaxen manes and tails, a short, elegant head, a strong neck, and a well-muscled, sturdy build")
 
     elif userInput == "kiger mustang":
         print(kigerArt)
@@ -883,7 +883,7 @@ while True:
         print(kigerMustang.attributeMammalia)
         print(kigerMustang.attributePerissodactyla)
         print(kigerMustang.attributeEquidae)
-        print(f"{kigerMustang.attributeEquus}")
+        print(f"{kigerMustang.attributeEquus} a agile, intelligent, and good for endurance riding and working cattle")
 
     elif userInput == "ardennais":
         print(ardennaisArt)
@@ -893,7 +893,7 @@ while True:
         print(ardennais.attributeMammalia)
         print(ardennais.attributePerissodactyla)
         print(ardennais.attributeEquidae)
-        print(f"{ardennais.attributeEquus}")
+        print(f"{ardennais.attributeEquus}  a compact, muscular build, short legs, and gentle, tolerant disposition")
 
     elif userInput == "tennessee walking horse":
         print(tennesseeArt)
@@ -903,7 +903,7 @@ while True:
         print(tennesseeWalkingHorse.attributeMammalia)
         print(tennesseeWalkingHorse.attributePerissodactyla)
         print(tennesseeWalkingHorse.attributeEquidae)
-        print(f"{tennesseeWalkingHorse.attributeEquus} ")
+        print(f"{tennesseeWalkingHorse.attributeEquus} a long graceful neck, short back, well-built hindquarters, sloping shoulders, slender but strong legs, and sound feet")
 
     elif userInput == "irish sport horse":
         print(irishArt)
@@ -913,7 +913,7 @@ while True:
         print(irishSportHorse.attributeMammalia)
         print(irishSportHorse.attributePerissodactyla)
         print(irishSportHorse.attributeEquidae)
-        print(f"{irishSportHorse.attributeEquus}")
+        print(f"{irishSportHorse.attributeEquus} good bone , a short back and strong loins, muscular hindquarters, a sloping shoulder, deep chest, and a long neck")
 
     elif userInput == 'no':
         break
